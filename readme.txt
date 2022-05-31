@@ -1,5 +1,7 @@
 An Pham
 
+This project was developed and ran via PyCharm
+
 Python Version: 3.8
 
 Libraries:
