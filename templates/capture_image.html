@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload new Image</title>
+    <style>
+        img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Please wait for the camera to load</h1>
+    <img id="bg" class="center" src="{{ url_for('video_feed') }}">
+    <br>
+    <button onclick="location.href={{ url_for('photo_captured') }}">Take Photo</button>
+</body>
+</html>
